@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.117.1/containers/dotnetcore-3.1
+{
+	"name": "C# (.NET Core 3.1)",
+	"dockerComposeFile": [
+		"../../docker-compose-ping.yml",
+		// Uncomment the following two lines to execute the application in integrated mode.
+		// "../../docker-compose-pong.yml",
+		// "../../docker-compose.yml"
+	],
+	"service": "ping",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [
+		"ms-dotnettools.csharp"
+	],
+	"workspaceFolder": "/workspace/Ping",
+	"shutdownAction": "none"
+}

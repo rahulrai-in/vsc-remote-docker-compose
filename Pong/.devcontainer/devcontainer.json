@@ -1,0 +1,24 @@
+{
+	"name": "Go",
+	"dockerComposeFile": [
+		"../../docker-compose-pong.yml"
+	],
+	"service": "pong",
+	"runArgs": [
+		"--cap-add=SYS_PTRACE",
+		"--security-opt",
+		"seccomp=unconfined"
+	],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"go.gopath": "/go"
+	},
+	"extensions": [
+		"ms-vscode.go"
+	],
+	"forwardPorts": [
+		8080
+	],
+	"workspaceFolder": "/workspace/Pong",
+	"shutdownAction": "none"
+}

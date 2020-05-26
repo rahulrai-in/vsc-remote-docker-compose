@@ -1,0 +1,11 @@
+version: "3"
+services:
+  pong:
+    build:
+      context: ./Pong
+      dockerfile: .devcontainer/Dockerfile
+    environment:
+      - PORT=8080
+    volumes:
+      - .:/workspace:cached
+    command: /bin/sh -c "while sleep 1000; do :; done"

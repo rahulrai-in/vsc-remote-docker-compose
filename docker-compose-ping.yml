@@ -1,0 +1,11 @@
+version: "3"
+services:
+  ping:
+    build:
+      context: ./Ping
+      dockerfile: .devcontainer/Dockerfile
+    environment:
+      - PONG_ADDRESS=http://host.docker.internal:8080/pong
+    volumes:
+      - .:/workspace:cached
+    command: /bin/sh -c "while sleep 1000; do :; done"

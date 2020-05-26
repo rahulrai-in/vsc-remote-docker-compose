@@ -1,0 +1,49 @@
+<mxfile host="" modified="2020-05-24T03:33:55.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.1 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" etag="CXK_w35DMjDHzAMm_4gJ" version="13.1.3" pages="2">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="High-Level Design">
+        <mxGraphModel dx="1030" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="lCAGPd7qgSF4j0GCjgbd-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="150" width="570" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="lCAGPd7qgSF4j0GCjgbd-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="180" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="lCAGPd7qgSF4j0GCjgbd-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="180" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="localhost:8080/pong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Ping Service&lt;br&gt;.NET Core console app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="210" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Pong Service&lt;br&gt;Go API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="210" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="lCAGPd7qgSF4j0GCjgbd-5" value="container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="180" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="lCAGPd7qgSF4j0GCjgbd-7" value="container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="180" width="60" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="HkirpskOzdigiJoFowkD" name="Page-2">
+        &#xa;        
+        <mxGraphModel dx="1138" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            &#xa;            
+            <root>
+                &#xa;                
+                <mxCell id="sWvGEQmTiNpaJ3EUbldF-0"/>
+                &#xa;                
+                <mxCell id="sWvGEQmTiNpaJ3EUbldF-1" parent="sWvGEQmTiNpaJ3EUbldF-0"/>
+                &#xa;            
+            </root>
+            &#xa;        
+        </mxGraphModel>
+        &#xa;    
+    </diagram>
+</mxfile>
